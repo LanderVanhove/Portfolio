@@ -13,42 +13,40 @@ main{
         justify-content: space-evenly;
 }
 
-#vaardighedenTitel{
+#vaardigheden{
     background: honeydew;
     color: black;
 
     width: 80%;
     border-radius: 10px;
     box-shadow:  #700B97;
-    transition: box-shadow 0.8s ease-in-out;
+    transition: box-shadow 0.5s ease-in-out;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
     flex-direction: column;
+    margin-top: 100px;
 }
 
-#vaardighedenTitel:hover{
+#vaardigheden:hover{
     box-shadow: 1px 1px 100px #700B97;
 }
 h1{
     font-size: 48px;
 }
 h2{
-    font-size: 12px;
+    font-size: 10px;
     margin-bottom: 30px;
-    border-bottom: 1px black solid;
-    width: 500px;
-    display: flex;
-    justify-content: center;
-}
+    margin-top: -5px;
+    }
 img{
     height: 50px;
     border-bottom: 3px solid transparent;
 }
 img:hover{
-    transform: scale(1.2);
-    transition: transform 0.5s ease-in-out;
+    transform: scale(1.4);
+    transition: transform 0.3s ease-in-out;
 }
 
 
@@ -61,29 +59,60 @@ img:hover{
 #tweedeRij{
     display: flex;
     width: 80%;
+    justify-content: space-evenly;
+    margin: 20px;
 
 }
 
 #talen{
     background: honeydew;
     color: black;
-    width: 50%;
+    width: 40%;
     border-radius: 10px;
     box-shadow:  #700B97;
     padding: 20px;
     display: flex;
     flex-direction: column;
-
-
+    transition: box-shadow 0.5s ease-in-out;
 }
 #fun{
     background: honeydew;
     color: black;
-    width: 50%;
+    width: 40%;
     border-radius: 10px;
     box-shadow:  #700B97;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
+    transition: box-shadow 0.5s ease-in-out;
+    align-items: center;
+}
+#talen:hover{
+    box-shadow: 1px 1px 100px #700B97;
+}
+#fun:hover{
+     box-shadow: 1px 1px 100px #700B97;
+ }
 
+td{
+    padding: 10px;
+}
+
+#werkervaring {
+    background: honeydew;
+    color: black;
+
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: #700B97;
+    transition: box-shadow 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+}
+
+#werkervaringtabel{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
