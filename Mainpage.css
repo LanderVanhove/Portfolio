@@ -4,17 +4,15 @@
     padding: 0;
     margin: 0;
     font-family: 'Comfortaa', sans-serif;
-    color: white;
 }
+
 body{
     background-image: url("Assets/background.jpg");
     background-size: cover;
     background-position: center;
     height: 2000px;
     backdrop-filter: blur(5px);
-}
-body::before{
-
+    color: white;
 }
 
 nav{
@@ -26,8 +24,9 @@ nav{
     align-items: center;
     margin: 10px 100px;
     border-radius: 12px;
-
+    color: white;
 }
+
 ul{
     list-style-type: none;
     display: flex;
@@ -40,14 +39,15 @@ ul{
     width: 20%;
     margin-left: 100px;
     align-items: center;
-
 }
+
 #nav2{
     width: 50%;
     display: flex;
     justify-content: space-around;
     margin-right: 30px;
 }
+
 a{
     text-decoration: none;
 }
@@ -61,3 +61,46 @@ li:hover{
     transform: scale(1.1);
     transition: transform 0.3s ease;
 }
+
+header{
+    position: sticky;
+    top: 10px;
+}
+header a{
+    color: white;
+}
+
+main a{
+    color: white;
+
+}
+main{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#paars{
+    margin-top: 20px;
+    border-radius: 12px;
+    background: #700B97;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#paars:hover{
+    background: white;
+    color: #700B97;
+}
+
+h2{
+    margin-top: 10px;
+}
+
+
+
