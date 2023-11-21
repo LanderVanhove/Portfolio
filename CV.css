@@ -10,14 +10,14 @@
 }
 main{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: flex-start;
 }
 
 #vaardigheden{
-    background: honeydew;
+    background: #DEDEDE;
     color: black;
-
     width: 80%;
+    height: 200px;
     border-radius: 10px;
     box-shadow:  #700B97;
     transition: box-shadow 0.5s ease-in-out;
@@ -26,11 +26,10 @@ main{
     align-items: center;
     padding: 20px;
     flex-direction: column;
-    margin-top: 100px;
 }
 
 #vaardigheden:hover{
-    box-shadow: 1px 1px 100px #700B97;
+    box-shadow: 1px 1px 50px #700B97;
 }
 h1{
     font-size: 48px;
@@ -61,45 +60,47 @@ img:hover{
     width: 80%;
     justify-content: space-evenly;
     margin: 20px;
-
 }
 
 #talen{
-    background: honeydew;
+    background: #DEDEDE;
     color: black;
-    width: 40%;
+    width: 50%;
     border-radius: 10px;
     box-shadow:  #700B97;
     padding: 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     transition: box-shadow 0.5s ease-in-out;
 }
 #fun{
-    background: honeydew;
+    background: #DEDEDE;
     color: black;
-    width: 40%;
+    width: 50%;
     border-radius: 10px;
     box-shadow:  #700B97;
     padding: 20px;
+    margin-left: 20px;
     transition: box-shadow 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 #talen:hover{
-    box-shadow: 1px 1px 100px #700B97;
+    box-shadow: 1px 1px 50px #700B97;
 }
 #fun:hover{
-     box-shadow: 1px 1px 100px #700B97;
+     box-shadow: 1px 1px 50px #700B97;
  }
 
 td{
     padding: 10px;
 }
 
-#werkervaring {
-    background: honeydew;
+#werkervaring{
+    background: #DEDEDE;
     color: black;
-
     width: 80%;
     border-radius: 10px;
     box-shadow: #700B97;
@@ -110,9 +111,27 @@ td{
     padding: 20px;
     flex-direction: column;
 }
+#werkervaring:hover{
+    box-shadow: 1px 1px 50px #700B97;
+}
 
 #werkervaringtabel{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+}
+tr:nth-child(even){
+    background: lightgrey;
+}
+
+#trcenter>td{
+    text-align: center;
+    border-bottom: #700B97 3px solid;
+}
+#tabelGeenOpmaak tr:nth-child(even){
+    background: none;
+    justify-content: center;
+}
+#tabelGeenOpmaak td{
+    text-align: center;
 }
