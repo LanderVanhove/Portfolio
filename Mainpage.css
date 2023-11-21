@@ -10,7 +10,6 @@ body{
     background-image: url("Assets/background.jpg");
     background-size: cover;
     background-position: center;
-    height: 2000px;
     backdrop-filter: blur(5px);
     color: white;
 }
@@ -74,6 +73,10 @@ main a{
     color: white;
 
 }
+
+body{
+    height: 1300px;
+}
 main{
     height: 600px;
     display: flex;
@@ -102,5 +105,22 @@ h2{
     margin-top: 10px;
 }
 
-
-
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    opacity: 0.5;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+}
+footer a{
+    color: #DEDEDE;
+}
+img{
+    height: 50px;
+}
+#imgtop{
+    background: #DEDEDE;
+}
