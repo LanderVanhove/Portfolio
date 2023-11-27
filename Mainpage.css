@@ -78,12 +78,7 @@ main a{
     color: white;
 }
 
-body{
-    height: 1300px;
-}
-
 main{
-    height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -114,10 +109,10 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
     opacity: 0.5;
     position: fixed;
-    bottom: 10px;
+    bottom: 0;
+    padding: 1%;
     width: 100%;
 }
 

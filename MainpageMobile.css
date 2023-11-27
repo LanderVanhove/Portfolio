@@ -6,9 +6,7 @@
 }
 
 @media screen and (max-width: 900px) {
-    html {
-        font-size: 1.25em;
-    }
+
 
     .hide{
         display: none;
@@ -39,6 +37,7 @@
         align-items: flex-end;
         justify-items: center;
         align-content: center;
+
     }
     #nav2.show{
         display: flex;
@@ -61,6 +60,22 @@
         display: inline-block;
         height: 2px;
         position: relative;
+    }
+
+    h1{
+        font-size: 26px;
+    }
+    #tweedeRij {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #talen {
+        width: 100%;
+    }
+    #fun{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
     }
 
     }
