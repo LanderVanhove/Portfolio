@@ -8,7 +8,7 @@
 
 body{
     background-image: url("Assets/background.jpg");
-    background-size: cover;
+    background-size: inherit;
     background-position: center;
     backdrop-filter: blur(5px);
     color: white;
@@ -35,17 +35,28 @@ ul{
 #nav1{
     display: flex;
     justify-content: space-around;
-    width: 40%;
-    margin-left: 100px;
     align-items: center;
+    width: 100%;
 }
 
 #nav2{
-    width: 50%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-right: 3%;
+    width: 100%;
 }
+
+li{
+    border-bottom: 2px solid transparent;
+    padding: 25px;
+}
+
+.hover:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    color: #700B97;
+}
+
 
 #menu{
     display: none;
@@ -53,16 +64,6 @@ ul{
 
 a{
     text-decoration: none;
-}
-
-li{
-    border-bottom: 2px solid transparent;
-}
-
-li:hover{
-    border-bottom: 2px solid #700B97;
-    transform: scale(1.1);
-    transition: transform 0.3s ease;
 }
 
 header{
@@ -74,15 +75,12 @@ header a{
     color: white;
 }
 
-main a{
-    color: white;
-}
-
 main{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    min-height: 600px;
 }
 
 #paars{
@@ -94,6 +92,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
 }
 
 #paars:hover{
@@ -128,7 +127,7 @@ img{
     background: #DEDEDE;
 }
 
-#highlight{
+.highlight{
     color: #700B97;
     font-weight: bolder;
 }

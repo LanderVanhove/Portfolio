@@ -41,11 +41,13 @@ h2{
     margin-top: -5px;
     }
 img{
-    height: 50px;
+    height: 80px;
     border-bottom: 3px solid transparent;
+    padding: 10px;
+
 }
 img:hover{
-    transform: scale(1.4);
+    transform: scale(1.2);
     transition: transform 0.3s ease-in-out;
 }
 
@@ -53,9 +55,9 @@ img:hover{
 #images{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
-    width: 80%;
+    align-items: flex-start;
 }
 #tweedeRij{
     display: flex;
@@ -152,8 +154,25 @@ tr:nth-child(even){
     align-items: center;
     padding: 20px;
     flex-direction: column;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 #Diploma:hover{
     box-shadow: 1px 1px 50px #700B97;
+}
+
+.wrappanel{
+    display: flex;
+
+}
+.level{
+    height: 80px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+.subtitel{
+    display: flex;
+    justify-content: center;
 }

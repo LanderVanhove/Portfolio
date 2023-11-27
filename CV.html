@@ -18,22 +18,22 @@
 
 <header>
     <nav>
-
         <ul id="nav1">
             <li><img src="Assets/robothoofd.png"/></li>
             <li> Lander Vanhove</li>
-            <li class="hide"><a href="https://www.linkedin.com/in/lander-v-00ab09295/" target="_blank"><img src="Assets/linkedin.png" /></a></li>
-            <li id="menuToggle"><a href="#"><span id="menu">menu</span></a></li>
+            <li class="hide" ><a href="https://www.linkedin.com/in/lander-v-00ab09295/" target="_blank"><img src="Assets/linkedin.png" /></a></li>
+            <li id="menuToggle"><a href="#"><span id="menu">menu</span></a>
+                <ul id="nav2">
+                    <li class="hover"><a href="OverMij.html">Over Mij</a></li>
+                    <li class="hover"><a href="CV.html"><span class="highlight">CV</span></a></li>
+                    <li class="hover"><a href="Logboek.html">Logboek</a></li>
+                    <li class="hover"><a href="Ontwikkeling.html">Ontwikkeling</a></li>
+                    <li class="hover"><a href="Opdrachten.html">Opdrachten</a></li>
+                    <li class="hover"><a href="Reflectie.html">Reflectie</a></li>
+                </ul>
+            </li>
         </ul>
 
-        <ul id="nav2">
-            <li><a href="OverMij.html">Over Mij</a></li>
-            <li><a href="CV.html">CV</a></li>
-            <li><a href="Logboek.html">Logboek</a></li>
-            <li><a href="Ontwikkeling.html">Ontwikkeling</a></li>
-            <li><a href="Opdrachten.html">Opdrachten</a></li>
-            <li><a href="Reflectie.html">Reflectie</a></li>
-        </ul>
     </nav>
 </header>
 
@@ -42,14 +42,65 @@
         <h1>Skills</h1>
         <h2>I can do all sorts of cool stuff</h2>
 
-        <div id="images">
-            <img src="Assets/html.png"/>
-            <img src="Assets/css.png"/>
-            <img src="Assets/cs.png"/>
-            <img src="Assets/xaml.png"/>
-            <img src="Assets/sql.png"/>
-            <img src="Assets/got.png"/>
+<div class="wrappanel">
+    <div id="images">
+        <p><span class="highlight">Programmeertaal</span></p>
+        <img src="Assets/html.png" alt="HTML image"/>
+        <img src="Assets/css.png" alt="CSS image"/>
+        <img src="Assets/cs.png" alt="cs image"/>
+        <img src="Assets/xaml.png" alt="XAML image"/>
+        <img src="Assets/sql.png" alt="SQL image"/>
+        <img src="Assets/got.png" alt="GIT image"/>
+    </div>
+    <div>
+        <p class="subtitel"><span class="highlight">level</span></p>
+        <div class="level">
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-solid fa-circle-half-stroke"></i>
+            <i class="fa-regular fa-circle"></i>
+            <i class="fa-regular fa-circle"></i>
         </div>
+        <div class="level">
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-regular fa-circle"></i>
+            <i class="fa-regular fa-circle"></i>
+            <i class="fa-regular fa-circle"></i>
+        </div>
+        <div class="level">
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-regular fa-circle"></i>
+            <i class="fa-regular fa-circle"></i>
+        </div>
+        <div class="level">
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-regular fa-circle"></i>
+        </div>
+        <div class="level">
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-solid fa-circle-half-stroke"></i>
+            <i class="fa-regular fa-circle"></i>
+        </div>
+        <div class="level">
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-regular fa-circle"></i>
+        </div>
+
+    </div>
+
+
+</div>
     </div>
 <div id="tweedeRij">
     <div id="talen">
@@ -80,18 +131,18 @@
         <h2>If we're not having fun, what's the point?</h2>
         <table id="tabelGeenOpmaak">
             <tr>
-                <td><img src="Assets/typing.png"/></td>
-                <td>I can type <span id="highlight">80 words</span> per minute</td>
+                <td><img src="Assets/typing.png" alt="typing image"/></td>
+                <td>I can type <span class="highlight">80 words</span> per minute</td>
                 <td></td>
             </tr>
             <tr>
                 <td></td>
-                <td>Solve a rubix cube under <span id="highlight">60 seconds</span></td>
-                <td><img src="Assets/Rubik_cube.png"/></td>
+                <td>Solve a rubix cube under <span class="highlight">60 seconds</span></td>
+                <td><img src="Assets/Rubik_cube.png" alt="rubix cube image"/></td>
             </tr>
             <tr>
-                <td><img src="Assets/chess.png"/></td>
-                <td>I have an online chess ELO of <span id="highlight">1800</span></td>
+                <td><img src="Assets/chess.png" alt="chess image"/></td>
+                <td>I have an online chess ELO of <span class="highlight">1800</span></td>
                 <td></td>
             </tr>
             <tr>
@@ -143,8 +194,8 @@
 <div id="Diploma">
     <h1>Diplomas</h1>
     <h2>School's stamp of approval</h2>
-    <div class="wrappanel"><i class="fa-solid fa-graduation-cap"></i> Middelbaar</div>
-<div class="wrappanel">    <i class="fa-solid fa-briefcase"></i> Business Management
+    <div> <i class="fa-solid fa-graduation-cap"></i> Middelbaar</div>
+<div>    <i class="fa-solid fa-briefcase"></i> Business Management
 </div>
     </div>
 
@@ -154,7 +205,7 @@
 <footer>
     <p>1 PRO A</p>
     <p>Assignment curriculum vitae</p>
-    <p><a id="backtotop" href="#top"><img id="imgtop" src="Assets/top.png"/></a></p>
+    <p><a id="backtotop" href="#top"><img id="imgtop" src="Assets/top.png" alt="back to top image"/></a></p>
 </footer>
 
 </body>
