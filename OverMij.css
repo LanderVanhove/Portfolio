@@ -8,3 +8,28 @@
 #overmij{
     color: #700B97;
 }
+#fototekst{
+    position: relative;
+}
+#profielfoto{
+    height: 250px;
+    border-radius: 25px;
+    box-shadow: #DEDEDE 0 0 0;
+    transform: translateY(0px);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    padding: 2px;
+
+}
+#profielfoto:hover{
+    box-shadow: #DEDEDE 0 0 10px;
+    position: relative;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+#profielfoto:active{
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    box-shadow: #DEDEDE 0 0 0;
+    position: relative;
+    transform: translateY(-5px);
+    border: solid #DEDEDE 2px;
+}

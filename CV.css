@@ -176,3 +176,9 @@ tr:nth-child(even){
     display: flex;
     justify-content: center;
 }
+
+#imgtop{
+    background: #DEDEDE;
+    height: 50px;
+
+}
