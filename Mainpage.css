@@ -32,6 +32,13 @@ ul{
     flex-direction: row;
 }
 
+#overmijtekst{
+    min-width: 126px;
+}
+#landervanhove{
+    min-width: 186px;
+}
+
 #nav1{
     display: flex;
     justify-content: space-around;
@@ -43,7 +50,6 @@ ul{
     display: flex;
     justify-content: space-between;
     margin-right: 3%;
-    width: 100%;
 }
 
 li{
@@ -55,6 +61,7 @@ li{
     transform: scale(1.1);
     transition: transform 0.3s ease;
     color: #700B97;
+    cursor: pointer;
 }
 
 
@@ -71,7 +78,7 @@ header{
     top: 10px;
 }
 
-header a{
+header a {
     color: white;
 }
 
@@ -121,13 +128,26 @@ footer a{
 
 img{
     height: 50px;
+    padding: 10px;
+
 }
 
 #imgtop{
     background: #DEDEDE;
+    height: 50px;
+
+}
+#imgtop:hover{
+    transform: scale(1);
+
 }
 
 .highlight{
     color: #700B97;
     font-weight: bolder;
+}
+
+footer:hover{
+    opacity: 1.5;
+
 }

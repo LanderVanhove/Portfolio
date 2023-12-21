@@ -55,6 +55,9 @@
         margin-left: 10px;
         align-items: center;
     }
+    #overmijtekst{
+        min-width: 0px;
+    }
 
     #menu{
         display: inline-block;
@@ -82,4 +85,32 @@
 
     }
 
+    #fototekst{
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        width: 100%;
+        }
+
+    #profielfoto{
+        border-radius: 25px;
+        padding: 0;
+        height: 100%;
+        width: 25;
+        object-fit: none;
+        object-position: none;
     }
+    #inleiding1{
+        width: 100%;
+
+    }
+
+    #vrijetijd{
+        height: 50%;
+        }
+
+    main{
+    }
+
+
+}

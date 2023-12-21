@@ -12,8 +12,6 @@ main{
         display: flex;
         justify-content: flex-start;
 }
-
-
 #vaardigheden{
     background: #DEDEDE;
     color: black;
@@ -44,13 +42,11 @@ img{
     height: 80px;
     border-bottom: 3px solid transparent;
     padding: 10px;
-
 }
 img:hover{
     transform: scale(1.2);
     transition: transform 0.3s ease-in-out;
 }
-
 
 #images{
     display: flex;
@@ -64,6 +60,9 @@ img:hover{
     width: 80%;
     justify-content: space-evenly;
     margin: 20px;
+}
+.level{
+    padding-right: 10px;
 }
 
 #talen{
@@ -110,7 +109,6 @@ td{
     box-shadow: #700B97;
     transition: box-shadow 0.5s ease-in-out;
     display: flex;
-    justify-content: center;
     align-items: center;
     padding: 20px;
     flex-direction: column;
@@ -118,6 +116,12 @@ td{
 }
 #werkervaring:hover{
     box-shadow: 1px 1px 50px #700B97;
+}
+table{
+    width: 100%;
+}
+tr:hover{
+    color: #700B97;
 }
 
 #werkervaringtabel{
@@ -133,6 +137,9 @@ tr:nth-child(even){
 #trcenter>td{
     text-align: center;
     border-bottom: #700B97 3px solid;
+}
+#trcenter:hover{
+    color: black;
 }
 #tabelGeenOpmaak tr:nth-child(even){
     background: none;
@@ -177,8 +184,9 @@ tr:nth-child(even){
     justify-content: center;
 }
 
-#imgtop{
-    background: #DEDEDE;
-    height: 50px;
-
+#overmijtekst{
+    min-width: 126px;
+}
+#landervanhove{
+    min-width: 186px;
 }
