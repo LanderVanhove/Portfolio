@@ -26,7 +26,7 @@ nav{
     color: white;
 }
 
-ul{
+nav ul{
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -52,7 +52,7 @@ ul{
     margin-right: 3%;
 }
 
-li{
+nav li{
     border-bottom: 2px solid transparent;
     padding: 25px;
 }
